@@ -13,7 +13,7 @@ logging.getLogger().setLevel(logging.INFO)
 if __name__ == '__main__':
     out_image, seed = infer(
         Image.open(imgs_dir.joinpath("explosion.png")),
-        "Mountainous landscape",
+        "Mountainous landscape, mid-autumn, rolling plains",
         negative_prompt="poor quality; low resolution"
     )
 
